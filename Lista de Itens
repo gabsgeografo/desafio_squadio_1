@@ -1,0 +1,11 @@
+itens = [] # Cria uma lista vazia para armazenar os itens
+
+#TODO: Solicite os itens ao usuário
+itens.append(input()) # Adiciona o primeiro item à lista
+itens.append(input()) # Adiciona o segundo item à lista
+itens.append(input()) # Adiciona o terceiro item à lista
+
+# Exibe a lista de itens
+print("Lista de itens:") # Imprime a mensagem "Lista de itens:"
+for item in itens: # Loop for para imprimir a lista de itens que o personagem possui 
+    print(f"- {item}") # Imprime a lista de itens 
